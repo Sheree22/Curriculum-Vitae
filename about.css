@@ -1,0 +1,52 @@
+:root{
+    background-image: url("thailand.jpg");
+    background-size: 100% 120%;
+}
+h2 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(136, 81, 187);
+    padding-left: 250px;
+
+}
+.personel-container{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 520px;
+    color: rgb(231, 89, 201);
+}
+.contact-container{
+    font-size: 20px;
+    padding-left: 255px;
+    color: rgb(231, 89, 201);
+}
+/*buttons*/
+h5{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.btn {
+    font-size: 1rem;
+    padding: 5px;
+    width: 20rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(228, 29, 112);
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(136, 81, 187);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}

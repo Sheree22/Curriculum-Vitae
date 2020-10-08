@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="about.css"/>
+
+    <style>
+        #jog {
+          position: relative;
+          cursor: pointer;
+          width: 150px;
+          height: 150px;
+        }
+      </style>
+
+</head>
+<body>
+    <div class="container">
+       <div id="game" class="justify-center flex-column">
+        <h2> Personal information: </h2>
+        <div class = "personel-container">
+            <p class="personelinfo">I am a student at the Nort-West University, currently busy with my third year and pursuing my Bachelor
+                of Science degree in Information Technology. I enjoy both the programming and data analysis modules in my
+                field of study. As a 21-year old from Uitenhage, I want to complete my degree and be successful in the IT-field. My 
+                hobbies include jogging and going to the beach. I am excited about my future and know that I will be 
+                a hard-working employee because of the love I have for what I do; it is not only a job, it is a passion.</p>
+        </div> 
+        <h2>Contact information: </h2>
+        <div class = "contact-container">
+            <p class="number">Contact number: 060 797 9808</p>
+            <p class="number">Email: shereegreeff0@gmail.com</p>   
+        </div>
+        <h5><a class="btn" href="/index.html">Return to home page</a></h5>
+       </div> 
+    
+    </div>
+    <div class = "animation">
+        <img id="jog" src="jogging.jpg">
+        <script>
+            jog.onclick = function() {
+              let start = Date.now();
+        
+              let timer = setInterval(function() {
+                let timePassed = Date.now() - start;
+        
+                jog.style.left = timePassed / 5 + 'px';
+        
+                if (timePassed > 2000) clearInterval(timer);
+        
+              }, 20);
+            }
+          </script>
+    </div>
+
+
+</body>
+</html>

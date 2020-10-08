@@ -1,0 +1,34 @@
+:root{
+    background-image: url("capture.PNG");
+    background-size: 45% 800%;
+    background-repeat: no-repeat;
+}
+h5{
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+.btn {
+    font-size: 1rem;
+    padding: 5px;
+    width: 20rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(58, 122, 219);
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1rem 0 blue;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}

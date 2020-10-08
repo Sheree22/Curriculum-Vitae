@@ -1,0 +1,53 @@
+:root{
+    background-image: url("bin.jpg");
+    background-size: 100% 200%;
+    background-repeat: none;
+}
+h2 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(167, 172, 250);
+    padding-left: 50px;
+}
+h3{
+    font-size: 20px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: circle;
+}
+.myedu{
+    font-size: 20px;
+    color: rgb(167, 172, 250);
+}
+/*buttons*/
+h5{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.btn {
+    font-size: 1rem;
+    padding: 5px;
+    width: 20rem;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(167, 172, 250);
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 black;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
